@@ -1,0 +1,10 @@
+<div class="file-container" *ngIf="!selectedFile">
+  <input type="file" class="file" (change)="getFile($event)">
+  <p>Drop or select a file here.</p>
+</div>
+
+<div class="file-info" *ngIf="selectedFile">
+  <p class="file-name">File Name: {{ selectedFile.name }}</p> <br>
+  <button (click)="selectedFile = undefined" style="background-color: red;">Clear File</button>
+</div> <br>
+<button class="upload-button" (click)="checkIfFileSelected()">Upload</button>

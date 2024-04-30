@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+table {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th,
+td {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 30px;
+    background-color: rgba(8, 12, 25, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
