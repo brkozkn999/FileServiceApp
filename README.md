@@ -2,7 +2,7 @@
 
 ### Description
 
-This application enables users to upload, store, and download their files.
+This application allows users to upload, store, and download their files.
 
 ### Dependencies
 
